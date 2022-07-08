@@ -1,0 +1,99 @@
+Técnicas de Programação II - 2o Período
+Segundo Projeto
+
+O objetivo deste segundo trabalho é implementar um Jogo da Forca para ser jogado em rede em 
+grupos de 3 jogadores.
+
+Para tanto, implementaremos, inicialmente, um programa que será o Servidor do Jogo;  estando
+ em execução, ele ficarão realizando, fundamentalmente 3 tipos de atividades que deverão ser
+  executadas em linhas de execução diferentes, a saber:
+
+1) Formação de grupos de 3:
+Esta linha de execução deverá ficar aguardando a entrada de jogadores até formar um grupo de 
+3, quando então, para aquele grupo de 3, o jogo começa numa outra linha de execução, ao passo
+que esta linha de execução começará a formar um novo grupo;
+Trata-se de um tipo de atividade que consistirá sempre de apenas uma linha de execução;
+
+2)  Fazer um grupo de 3 jogar:
+Esta linha de execuções deverá colocar uma palavra aleatória em jogo e é bom ter apenas palavras
+longas no banco de palavras; em seguida, esta linha de execução deverá dar a cada jogador, 
+NA ORDEM EM QUE ENTRARAM NO GRUPO DE 3, a oportunidade de dizer qual é a palavra em jogo ou
+de escolher uma letra. Na sua vez, o jogador que optar por dizer a palavra em jogo tem as 
+seguintes possibilidades:
+
+    a) Acertar a palavra em jogo, caso em que ele vence a partida e os demais perdem, 
+    encerrando-se a partida, fazendo com que as  conexões com os jogadores sejam fechadas
+    e aquela linha de execução termina; ou
+
+    b) Errar a palavra em jogo, caso em que ele é retirado da partida (informa ao jogador a
+    sua derrota e que jogo para ele termina ali, fecha a conexão com o jogador) na qualidade
+    de perdedor e o jogo prossegue com os outros dois.
+
+    Claro que agora, caso um desses dois resolver dizer qual é a palavra em jogo e errar, ele 
+    perde e o outro ganha, encerrando-se a partida, as conexões com os jogadores são fechadas 
+    e aquela linha de execução termina.
+
+    Em vez de dizer a palavra em jogo, o jogador, na sua vez, pode escolher dizer uma letra e, 
+    neste caso, ocorre o esperado, se ele acertar, a letra é revelada para todos os jogadores e 
+    se a palavra for completada, o jogador que a completou vence, os demais perdem,encerrando-se
+    a partida, as conexões com os jogadores são fechadas e aquela linha de execução termina; 
+    independentemente de acertar ou não, se a palavra não completada, a vez passa para o próximo
+    jogador. 
+
+Trata-se de um tipo de atividade que consistirá, eventualmente, de muitas linhas de execução, 
+uma para cada grupo de 3 jogando.
+
+3) Desativar o servidor: 
+Esta linha de execução deve enviar a todos os jogadores, de todos os grupos de 3, um comunicado
+indicando que o servidor está sendo desativado, deve fechar todas as conexões, deve encerrar 
+todas as linhas de execução e deve terminar o programa.
+
+Trata-se de um tipo de atividade que consistirá sempre de apenas uma linha de execução. 
+
+OBS: deixe para a main o papel ÚNICO de ativar as linhas de execução dos tipos 1 e 3 e, para a
+linha de execução do tipo 1, deixe o 	papel de ativar linhas de execução do tipo 2.
+
+Implementaremos, ainda, um programa que será o Cliente do Jogo. O papel dele, claro, será o de
+manter o jogador informado sobre tudo o que acontece no jogo e, naturalmente, permitir que o 
+jogador jogue.
+
+Informações Finais:
+1) O presente trabalho pode ser feito em grupos de até 4 alunos. Sugiro que grupos de 4 alunos
+dividam-se em 2 subgrupos de 2 alunos cada, que grupos de 3 alunos dividam-se em 2 subgrupos, 
+um com 1 e outro com 2 alunos, e, finalmente, que grupos de 2 se dividam em 2 subgrupos de 1 
+aluno cada. Sugiro ainda que um dos subgrupos foque no desenvolvimento do programa cliente, ao
+passo que o outro subgrupo foque no desenvolvimento do programa servidor. No caso de subgrupos
+com diferentes quantidades de alunos, sugiro que o que tiver menos alunos foque no 
+desenvolvimento do cliente e o que tiver mais alunos foque no desenvolvimento do servidor
+(isto porque desenvolver o servidor dá um pouco mais de trabalho do que desenvolver o cliente).
+
+2) Para não entrar em recuperação, o presente trabalho deverá ser entregue TOTALMENTE FUNCIONAL,
+impreterivelmente até o dia 29 de novembro de 2021. A entrega do trabalho não funcional 
+implicará em reprovação.
+Após o prazo estabelecido acima, aqueles que não tiverem entregado o trabalho serçao 
+considerados automaticamente em recuperação e a recuperação deve ser entendida como um prazo a
+mais para concluir o trabalho.
+
+3) Classes do primeiro projeto, o Jogo da Forca "Jogador vs Computador", que se prestarem a ser
+ usadas neste projeto, podem ser usadas sem problemas, com ou sem adaptações.
+
+4) Classes do Fazedor de Continhas que se prestarem a ser usadas neste projeto, podem ser usadas
+sem problemas, com ou sem adaptações.
+
+
+5) Para ser considerado entregue, deverão ser postados no GOOGLE CLASSROOM, VÁRIOS pequenos 
+vídeos, cujos nomes deverão ser números naturais a partir de 1, sempre com extensão MP4.
+O primeiro desses vídeos deverá apresentar o grupo, o segundo deles deverá apresentar o 
+programa em funcionamento, e os demais devem apresentar, COM MINÚCIAS, cada uma das classes
+desenvolvidas.
+
+Para minimizar a quantidade de vídeos, apresente apenas uma vez as classes comuns aos dois
+programas e deixe claro na apresentaçõo de que se trata de uma classe compartilhada pelo
+programa cliente e pelo programa servidor.
+Não é necessário apresentar classes que foram aproveitadas SEM NENHUMA ALTERAÇÃO, do Fazedor
+de Continhas ou do Primeiro Projeto, o Jogo da Forca "Jogador vs Computador".
+Classes que foram aproveitadas, mas que sofreram alterações, na apresentação, foquem somente
+nas alterações. 
+
+6) TODOS os alunos deverão participar dos vídeos com intensidade aproximadamente igual, sem 
+desequilíbrio.

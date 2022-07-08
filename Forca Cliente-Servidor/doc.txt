@@ -1,0 +1,33 @@
+CLASSES
+- cliente
+- teclado (pronta)
+- comunicado
+- comunicadoDeDesligamento (?)
+- aceitadoraDeConexao (?) --- OK, MAS TEM QUE MUDAR O NOME DAS VARIÁVEIS
+- supervisoraDeConexao (editar)
+- pedidoParaSair
+- pedidoDeChar
+- pedidoDePalavra
+
+Classes da Forca
+- servidor (+ FORCA) 
+- BancoDePalavras --> OK
+- ControladorDeErros
+- ControladorDeLetrasJaDigitadas
+- Palavra 
+- Tracinhos
+
+Classes para fazer
+- PedidoDeChar
+-
+
+
+
+
+
+
+Classes ocas herdam ações de outras classes com o "extends" (classe pai).
+-> public class ComunicadoDeDesligamento extends Comunicado {}
+
+E com o "implements" implementam alguma interface.
+-> public class Comunicado implements Serializable, Cloneable {}
