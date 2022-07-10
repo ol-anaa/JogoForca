@@ -1,4 +1,4 @@
-<h1> Jogo da Forca Java ☕ </h1>
+<h1> Jogo da Forca - Java ☕ </h1>
 
 Trabalho de Técnicas de Programação II do COTUCA
 
