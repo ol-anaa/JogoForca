@@ -24,10 +24,10 @@ Trabalho de Técnicas de Programação II do COTUCA
       </a><br>
     </td>
      <td align="center">
-      <a href="https://www.linkedin.com/in/aline-teixeira-5781a4196/">
-        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQGxbuO5roEpWQ/profile-displayphoto-shrink_800_800/0/1656536692091?e=1662595200&v=beta&t=0mK4IsscLKEv0NichvLUgJ5WpQq8dtQSiPTC66a0r30" width="100px;" alt="Aline"/><br>
+      <a href="https://github.com/AlineTeixeiira">
+        <img src="https://avatars.githubusercontent.com/u/97939452?v=4" alt="AlineTeixeiira"/><br>
         <sub>
-          <b>Aline</b>
+          <b>AlineTeixeiira</b>
         </sub>
       </a>
     </td>
