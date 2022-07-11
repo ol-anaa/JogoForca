@@ -25,7 +25,7 @@ Trabalho de Técnicas de Programação II do COTUCA
     </td>
      <td align="center">
       <a href="https://github.com/AlineTeixeiira">
-        <img src="https://avatars.githubusercontent.com/u/97939452?v=4" alt="AlineTeixeiira"/><br>
+        <img src="https://avatars.githubusercontent.com/u/97939452?v=4" width="100px;" alt="AlineTeixeiira"/><br>
         <sub>
           <b>AlineTeixeiira</b>
         </sub>
